@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <div className={styles.navbox}>
-        <div className={styles.nav}>
+        <div className={styles.navbox}>
         
       <nav  >
       <ul >
