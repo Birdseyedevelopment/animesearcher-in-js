@@ -3,7 +3,7 @@ import  "./globals.css";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "Usmommy Laundry Services",
+  title: "Anime searcher",
   description: "Created by Birdseye Development",
 };
 
