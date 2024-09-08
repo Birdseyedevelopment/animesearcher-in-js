@@ -1,0 +1,93 @@
+
+
+.main {
+  display: flex;
+  height: 50vh;
+  width: 400px;
+  
+}
+ 
+.title{
+  /* Frame 1 */
+
+box-sizing: border-box;
+
+
+width: 391px;
+height: 185px;
+
+background: #3A1010;
+border: 5px solid #FF0000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+
+
+/* Anime Searcher */
+
+position: relative;
+width: 393px;
+height: 228px;
+left: 50%;
+top: 10%;
+
+/* Title Hero */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 250;
+font-size: 40px;
+line-height: 120%;
+/* or 86px */
+text-align: center;
+
+background: linear-gradient(180deg, #E33B3B 0%, #7D2020 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+
+.searchbar {
+ /* searchbar */
+
+position: relative;
+width: 391px;
+height: 35px;
+color: lightslategrey;
+background: #3A1010;
+border: 5px solid #F12222;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+.button{
+  /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+
+position: relative;
+width: 148px;
+height: 63px;
+bottom: 30px;
+left: 32%;
+background: #2C2C2C;
+border: 1px solid #2C2C2C;
+border-radius: 8px;
+color: lightslategrey;
+}
+
+.searchbox{
+  top :25%;
+  left: 50%;
+
+  position: relative;
+}
