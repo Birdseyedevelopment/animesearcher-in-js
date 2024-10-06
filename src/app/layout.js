@@ -1,6 +1,7 @@
 import Link from "next/link";
 import  "./globals.css";
 import styles from "./page.module.css";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 export const metadata = {
   title: "Anime searcher",
@@ -30,9 +31,10 @@ export default function RootLayout({ children }) {
         </li>
       </ul>
     </nav>   
+    <SearchBar/>
           </div>
         </div> 
-    <div>{children}</div>
+    <div className={styles.layout}>{children}</div>
       </body>
     </html>
   );
