@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
       <div className={styles.navbox}>
         <div className={styles.navbox}>
+        
       <nav  >
       <ul >
         <li>
