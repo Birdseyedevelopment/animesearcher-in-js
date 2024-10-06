@@ -4,13 +4,6 @@ export default function About() {
   return (
     
     <div className={styles.page}>
-      <div className={styles.searchbox}>
-      <form action="/about">
-        <input type="text" className={styles.searchbar} name="animeName" placeholder="Search for an ANIME"></input> 
-    <br/>
-     <button className={styles.button} type="submit" name="animeName">HAJIME!</button>
-     </form>
-     </div>
       <div className={styles.main}>
       <h1 >Anime Adder</h1>
       
