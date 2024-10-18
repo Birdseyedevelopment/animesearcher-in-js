@@ -1,7 +1,9 @@
 .main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
-  width: 400px;
+  width: 60vw;
   
 }
  
@@ -92,10 +94,10 @@ color: lightslategrey;
 
 .layout {
   display: flex;
-  flex-direction: column;
+  width: 80vw;
+  max-height: 80vh;
+  max-width: 80vw;
   align-items: center;
   justify-content: center;
 
-  width: 90%;
-  max-width: 1200px;
 }
