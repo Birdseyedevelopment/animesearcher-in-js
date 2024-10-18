@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
       <SearchBar/>
 
     </nav>   
+    <SearchBar/>
           </div>
     <div className={styles.layout}>{children}</div>
       </body>

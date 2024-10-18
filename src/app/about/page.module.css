@@ -27,7 +27,6 @@ background-clip: text;
  .body {
     display: flex;
     align-items: center;
-    height: 40vh;
     
     text-align: center;
     color: red;
@@ -49,24 +48,8 @@ background-clip: text;
     left:305px;
     
   }
-  .page{
-    position:absolute;
-    align-content: center;
-  }
 
-  .searchbar {
-    /* searchbar */
-   
-   position: relative;
-   width: 391px;
-   height: 35px;
-   color: lightslategrey;
-   background: #3A1010;
-   border: 5px solid #F12222;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   border-radius: 15px;
-   top: 15px;
-   }
+
    
    .button{
      /* Button */
