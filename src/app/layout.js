@@ -1,6 +1,7 @@
 import Link from "next/link";
 import  "./globals.css";
 import styles from "./page.module.css";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 export const metadata = {
   title: "Anime searcher",
