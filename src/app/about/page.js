@@ -15,6 +15,7 @@ export default function About() {
       <div className={styles.main}>
       <h1 >Anime Info Page</h1>
       </div>
+      <br />
         <div className={styles.body}>
           
           <div  className={styles.animeName}>

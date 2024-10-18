@@ -11,7 +11,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <div className={styles.navbox}>
         <div className={styles.navbox}>
         
       <nav  >
@@ -29,10 +28,11 @@ export default function RootLayout({ children }) {
         <Link href="/animeAdder">Anime Adder</Link>
         </li>
       </ul>
+      <SearchBar/>
+
     </nav>   
           </div>
-        </div> 
-    <div>{children}</div>
+    <div className={styles.layout}>{children}</div>
       </body>
     </html>
   );

@@ -1,7 +1,9 @@
 .main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
-  width: 400px;
+  width: 60vw;
   
 }
  
@@ -88,4 +90,14 @@ color: lightslategrey;
   left: 50%;
 
   position: relative;
+}
+
+.layout {
+  display: flex;
+  width: 80vw;
+  max-height: 80vh;
+  max-width: 80vw;
+  align-items: center;
+  justify-content: center;
+
 }
