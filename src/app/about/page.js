@@ -4,10 +4,11 @@ import styles from "./page.module.css";
 export default function About() {
   return (
     
-    <div className={styles.page}>
+    <div >
       <div className={styles.main}>
       <h1 >Anime Info Page</h1>
       </div>
+      <br />
         <div className={styles.body}>
           
           <div  className={styles.animeName}>

@@ -8,8 +8,8 @@ export default function SearchBar() {
       <input type="text" className={styles.searchbar} name="animeName" placeholder="Search for an ANIME"></input> 
   
   <br/>
-   <button className={styles.button} type="submit" name="animeName">HAJIME!</button>
    </form>
+      <button className={styles.button} type="submit" name="animeName">HAJIME!</button>
    </div>
   );
 }
